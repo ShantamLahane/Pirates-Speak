@@ -2,7 +2,7 @@ let textArea = document.querySelector("textarea");
 let transButton = document.querySelector("#tButton");
 let outputText = document.querySelector("#output");
 
-let apiUrl = "https://api.funtranslations.com/translate/yoda.json"
+let apiUrl = "https://api.funtranslations.com/translate/pirate.json"
 
 function getFetchUrl(input){
     return apiUrl + "?text=" + input 

@@ -4,25 +4,28 @@
 }
 
 body {
-     font-family: "Neucha", cursive;
+     font-family: "Cormorant Garamond, Light 300";
      margin: 0px;
      max-width: 700px;
      margin-left: auto;
      margin-right: auto;
-     background-color: #F3F4F6;
+}
+
+.txt-basic {
+     margin-top: 2rem;
+     margin-bottom: 2rem;
 }
 
 .img-resize {
      display: block;
      margin-left: auto;
      margin-right: auto;
-     max-width: 40vw;
-     margin-bottom: -4.5rem;
+     max-width: 80vw;
+     margin-top: 1rem;
 }
 
 .tbplaceholder {
      position: start;
-     
 }
 
 textarea {
@@ -50,7 +53,7 @@ textarea {
      padding-top: 1rem;
      padding-bottom: 1rem;
      font-family: inherit;
-     font-size: large;
+     font-size: x-large;
      margin-top: 3rem;
      margin-bottom: 4rem;
      border: 1px transparent;
